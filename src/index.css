@@ -104,7 +104,6 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   z-index: 100;
   width: 40%;
-  border-radius: 44px;
 }
 
 /* Style the links inside the navigation bar */
@@ -117,6 +116,7 @@ nav a {
   font-size: 1em;
   transition: 0.5s;
   padding: 0.8rem 0.3rem;
+  border-radius: 44px;
 }
 
 /* Change the color of links on hover */

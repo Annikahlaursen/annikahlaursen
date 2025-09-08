@@ -3,7 +3,7 @@
     "id": 0,
     "title": "Gravel Website",
     "year": 2024,
-    "description": "Gravel cykel website, lavet i individuelt. Hjemmesiden er lavet for at promovere gravel cykling og inspirere folk til at prøve gravel cykling.",
+    "description": "Gravel cykel website, lavet individuelt. Hjemmesiden er lavet for at promovere gravel cykling og inspirere folk til at prøve gravel cykling.",
     "tags": ["HTML", "CSS"],
     "image": "./src/assets/gravel.png",
     "links": [
