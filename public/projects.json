@@ -5,11 +5,25 @@
     "year": 2024,
     "description": "Gravel cykel website, lavet i individuelt. Hjemmesiden er lavet for at promovere gravel cykling og inspirere folk til at prøve gravel cykling.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/Project.gravel.png",
+    "image": "./src/assets/gravel.png",
     "links": [
       {
         "url": "https://gravel.annikahlaur.dk/",
         "text": "Gravel cykel website"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Menstrution - informativ website",
+    "year": 2025,
+    "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "image": "./src/assets/underliv.png",
+    "links": [
+      {
+        "url": "https://menstruation.astrupdesigns.dk/",
+        "text": "Menstruation informativt website"
       }
     ]
   },
@@ -19,7 +33,7 @@
     "year": 2024,
     "description": "Dette projekt er et individuelt projekt, hvor jeg har lavet en responsiv hjemmeside for Radar Fælleskab, som er en organisation der arbejder for at skabe fællesskab og netværk for unge i alderen 15-25 år. Hjemmesiden er lavet med fokus på brugervenlighed og tilgængelighed.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/Project.radar.png",
+    "image": "./src/assets/radar.png",
     "links": [
       { "url": "https://radar.annikahlaur.dk/", "text": "Radar Fælleskab" }
     ]
@@ -30,7 +44,7 @@
     "year": 2025,
     "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "./src/assets/Project.zerobuzzbrew.png",
+    "image": "./src/assets/zerobuzzbrew.png",
     "links": [
       {
         "url": "https://zerobuzzbrew.astrupdesigns.dk/",
@@ -44,7 +58,7 @@
     "year": 2025,
     "description": "Forfatteraften for Poul Duedahl, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
-    "image": "./src/assets/Forfatteraften-Poul.png"
+    "image": "./src/assets/poul.png"
   },
   {
     "id": "forfatteraften2",
@@ -52,7 +66,7 @@
     "year": 2025,
     "description": "Forfatteraften for Else Lerche Olsen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
-    "image": "./src/assets/Forfatteraften-Elsebeth.png"
+    "image": "./src/assets/elsebeth.png"
   },
   {
     "id": "forfatteraften3",
@@ -60,20 +74,6 @@
     "year": 2025,
     "description": "Forfatteraften for Sidse Laugesen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
-    "image": "./src/assets/Forfatteraften-Sidse.png"
-  },
-  {
-    "id": 4,
-    "title": "Menstrution - informativ website",
-    "year": 2025,
-    "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
-    "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "./src/assets/Project.underliv.png",
-    "links": [
-      {
-        "url": "https://menstruation.astrupdesigns.dk/",
-        "text": "Menstruation informativt website"
-      }
-    ]
+    "image": "./src/assets/sidse.png"
   }
 ]

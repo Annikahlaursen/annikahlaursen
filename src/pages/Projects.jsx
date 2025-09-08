@@ -1,14 +1,24 @@
-import { useParams } from "react-router-dom";
-import ProjectDetail from "./ProjectDetail";
+import { useEffect, useState } from "react";
+import ProjectRow from "../components/ProjectRow";
 
 export default function Projects() {
-  const { id } = useParams();
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    async function getData() {
+      const response = await fetch("/projects.json");
+      const data = await response.json();
+      setProjects(data);
+    }
+    getData();
+  }, []);
+
   return (
-    <div>
-      <h2>Project Detail Page</h2>
-      <p>Details about a specific project will be shown here.</p>
-      <h2>Client Detail for ID: {id}</h2>
-      <ProjectDetail />
-    </div>
+    <section>
+      <h2>Projekter</h2>
+      {projects.map((project) => (
+        <ProjectRow project={project} key={project.id} />
+      ))}
+    </section>
   );
 }
