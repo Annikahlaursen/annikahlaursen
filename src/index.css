@@ -7,40 +7,48 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  --brown: #463f3a;
+  --grey: #8a817c;
+  --lightgrey: #bcb8b1;
+  --white: #f4f3ee;
+  --noto: "noto sans", sans-serif;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--white);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--white);
 }
 
 /* src/main.css */
 body {
-  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--grey), "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.05em;
   color: var(--text-color-dark);
   letter-spacing: 0.6px;
   animation: fadeIn 0.5s;
 }
 
-.header {
-  background: #222;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
-
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 button {
@@ -55,67 +63,74 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--lightgrey);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.headernav {
+  position: sticky;
+  display: flex;
+  width: 90%;
+  top: 0;
+  background-color: var(--grey);
+  box-shadow: 0 2px 4px #0000001a;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: center;
+  border-radius: 37px;
+  width: 90%;
+  top: 0;
+  margin-top: 2rem;
+}
+
+.headernav h1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 /* ---------- Navigation Styling ---------- */
 nav {
-  background-color: var(--green);
   display: grid;
-  left: 0;
-  position: sticky;
-  right: 0;
-  text-align: center;
-  top: 0;
-  padding: 1em 2em;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1em;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.805);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40%;
 }
 
 /* Style the links inside the navigation bar */
 nav a {
   display: inline-block;
-  color: var(--text-color-light);
-  text-align: center;
-  padding: 20px 16px;
   text-decoration: none;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  border: 2px solid var(--green); /* Use the --green variable */
   font-weight: 500;
-  font-size: 1.2em;
-  border-radius: 8px;
+  font-size: 1em;
   transition: 0.5s;
+  padding: 0.8rem 0.3rem;
+  border-radius: 24px;
 }
 
 /* Change the color of links on hover */
 nav a:hover {
-  background-color: var(--light-green);
-  color: var(--green);
+  background-color: var(--brown);
 }
 
 /* Add a color to the active/current link */
 nav a.active {
-  background-color: var(--light-green);
-  color: var(--green);
+  background-color: var(--brown);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    background-color: var(--brown);
   }
   a:hover {
-    color: #747bff;
+    color: var(--white);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--brown);
   }
 }
