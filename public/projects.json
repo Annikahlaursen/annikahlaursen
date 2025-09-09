@@ -9,13 +9,13 @@
     "links": [
       {
         "url": "https://gravel.annikahlaur.dk/",
-        "text": "Gravel cykel website"
+        "text": "Gravel website >>"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Menstrution - informativ website",
+    "title": "Period - informativ website",
     "year": 2025,
     "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -23,7 +23,7 @@
     "links": [
       {
         "url": "https://menstruation.astrupdesigns.dk/",
-        "text": "Menstruation informativt website"
+        "text": "Period Website >>"
       }
     ]
   },
@@ -35,12 +35,12 @@
     "tags": ["HTML", "CSS"],
     "image": "./src/assets/radar.png",
     "links": [
-      { "url": "https://radar.annikahlaur.dk/", "text": "Radar Fælleskab" }
+      { "url": "https://radar.annikahlaur.dk/", "text": "Radar Website >>" }
     ]
   },
   {
     "id": 2,
-    "title": "Zero BuzzBrew - responsivt website",
+    "title": "ZeroBuzzBrew - Responsiv website",
     "year": 2025,
     "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -48,13 +48,13 @@
     "links": [
       {
         "url": "https://zerobuzzbrew.astrupdesigns.dk/",
-        "text": "Zero BuzzBrew"
+        "text": "ZeroBuzzBrew Website >>"
       }
     ]
   },
   {
     "id": "forfatteraften1",
-    "title": "Forfatteraften for Poul Duedahl - Plakat",
+    "title": "Poul Duedahl - Plakat",
     "year": 2025,
     "description": "Forfatteraften for Poul Duedahl, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
@@ -62,7 +62,7 @@
   },
   {
     "id": "forfatteraften2",
-    "title": "Forfatteraften for Else Lerche Olsen - Plakat",
+    "title": "Else Lerche Olsen - Plakat",
     "year": 2025,
     "description": "Forfatteraften for Else Lerche Olsen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
@@ -70,7 +70,7 @@
   },
   {
     "id": "forfatteraften3",
-    "title": "Forfatteraften for Sidse Laugesen - Plakat",
+    "title": "Sidse Laugesen - Plakat",
     "year": 2025,
     "description": "Forfatteraften for Sidse Laugesen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],

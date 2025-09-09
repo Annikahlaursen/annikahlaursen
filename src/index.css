@@ -121,7 +121,6 @@ nav a {
 /* Change the color of links on hover */
 nav a:hover {
   background-color: var(--brown);
-  border-radius: 10em;
 }
 
 /* Add a color to the active/current link */
