@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sc1",
+    "title": "instagram",
+    "description": "Social icon",
+    "image": "./src/assets/ig.webp",
+    "url": "https://gravel.annikahlaur.dk/"
+  },
+  {
+    "id": "sc2",
+    "title": "facebook",
+    "description": "Social icon",
+    "image": "./src/assets/gravel.png",
+    "url": "https://gravel.annikahlaur.dk/"
+  },
+  {
+    "id": "sc3",
+    "title": "linkedin",
+    "description": "Social icon",
+    "image": "./src/assets/gravel.png",
+    "url": "https://gravel.annikahlaur.dk/"
+  },
+  {
+    "id": "sc4",
+    "title": "github",
+    "description": "Social icon",
+    "image": "./src/assets/gravel.png",
+    "url": "https://gravel.annikahlaur.dk/"
+  }
+]
