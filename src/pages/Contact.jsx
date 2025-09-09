@@ -1,3 +1,11 @@
+import ContactSection from "../components/ContactSection";
+import SocialIcons from "../components/SocialIcons";
+
 export default function Contact() {
-  return <div>Kontakt</div>;
+  return (
+    <div>
+      <ContactSection />
+      <SocialIcons />
+    </div>
+  );
 }

@@ -147,6 +147,78 @@ nav a.active {
   text-align: left;
   margin: auto auto auto 0;
 }
+/* ========== CONTACT STYLING ========== */
+.list-social span {
+  display: none;
+}
+
+#contact {
+  background: var(--light-grey);
+  width: 100%;
+  margin-top: 40px;
+  padding: 4em 0;
+  text-align: center;
+}
+#contact figure {
+  margin: 3em 0 0;
+}
+
+@media (min-width: 768px) {
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    padding: 7em 0;
+    text-align: left;
+  }
+
+  #contact article {
+    text-align: right;
+  }
+
+  #contact figure {
+    margin: 0;
+  }
+}
+
+#contact img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: var(--light-green) 4px solid;
+  object-fit: cover;
+}
+
+#contact h2 {
+  font-size: 3em;
+  margin-top: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #contact h2 {
+    font-size: 5em;
+    margin-right: -8px;
+  }
+}
+
+#contact address {
+  font-style: normal;
+  margin: 2em 0 0 0;
+}
+
+#contact .list-social {
+  margin: 2em 0 0;
+}
+
+#contact .list-social i {
+  color: var(--green);
+  font-size: 30px;
+}
+
+#contact p:last-child {
+  margin-bottom: 0;
+}
 
 @media (min-width: 768px) {
   .project-row {
