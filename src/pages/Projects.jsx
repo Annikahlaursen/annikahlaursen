@@ -15,7 +15,7 @@ export default function Projects() {
 
   return (
     <section>
-      <h2>Projekter</h2>
+      <h2>Projects</h2>
       {projects.map((project) => (
         <ProjectRow project={project} key={project.id} />
       ))}

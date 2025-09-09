@@ -116,12 +116,12 @@ nav a {
   font-size: 1em;
   transition: 0.5s;
   padding: 0.8rem 0.3rem;
-  border-radius: 44px;
 }
 
 /* Change the color of links on hover */
 nav a:hover {
   background-color: var(--brown);
+  border-radius: 10em;
 }
 
 /* Add a color to the active/current link */
