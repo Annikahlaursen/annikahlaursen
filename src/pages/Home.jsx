@@ -1,5 +1,11 @@
 import Header from "../components/Header";
+import SkillSection from "../components/SkillSection";
 
 export default function Home() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <SkillSection />
+    </div>
+  );
 }

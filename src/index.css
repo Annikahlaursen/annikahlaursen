@@ -104,11 +104,22 @@ button:focus-visible {
 }
 
 .header img {
-  width: 30%;
+  width: 40%;
 }
 
 .vertical-head {
-  width: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.header-text {
+  justify-self: center;
+  text-align: left;
+  align-content: center;
+}
+
+.header .list-social i {
+  margin-right: 1rem;
 }
 
 /* ---------- Navigation Styling ---------- */
@@ -165,7 +176,7 @@ nav a.active {
   display: none;
 }
 
-.list-social i {
+#contact .list-social i {
   margin-left: 1rem;
 }
 
@@ -212,6 +223,10 @@ nav a.active {
   padding: 0;
 }
 
+i :hover {
+  color: var(--brown);
+}
+
 @media (min-width: 768px) {
   #contact h2 {
     font-size: 5em;
@@ -228,13 +243,30 @@ nav a.active {
   margin: 2em 0 0;
 }
 
-#contact .list-social i {
-  color: var(--green);
+.list-social i {
+  color: var(--grey);
   font-size: 30px;
 }
 
-#contact p:last-child {
+p:last-child {
   margin-bottom: 0;
+}
+
+i:hover {
+  color: var(--white);
+}
+
+/* -----SKill Section----- */
+.skillsection {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill {
+  padding: 1em;
+  margin: 1rem;
 }
 
 @media (min-width: 768px) {
