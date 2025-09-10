@@ -98,6 +98,19 @@ button:focus-visible {
   padding-right: 2rem;
 }
 
+/* ------ Header Styling ------- */
+.header {
+  margin-top: 3em;
+}
+
+.header img {
+  width: 30%;
+}
+
+.vertical-head {
+  width: 2em;
+}
+
 /* ---------- Navigation Styling ---------- */
 nav {
   display: grid;

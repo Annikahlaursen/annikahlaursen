@@ -1,7 +1,19 @@
+import SocialIcons from "./SocialIcons";
+import sejtest from "../assets/sejtest.png";
+
 export default function Header() {
   return (
-    <header>
-      <h1 className="header">Annikahlaursen</h1>
+    <header className="header">
+      <article className="vertical-head">
+        <div>
+          <img src={sejtest} alt="df" />
+        </div>
+        <div>
+          <h1>Jeg er Annika</h1>
+          <p>Frontend Developer | Student</p>
+          <SocialIcons />
+        </div>
+      </article>
     </header>
   );
 }
