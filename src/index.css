@@ -152,13 +152,16 @@ nav a.active {
   display: none;
 }
 
+.list-social i {
+  margin-left: 1rem;
+}
+
 #contact {
-  background: var(--light-grey);
   width: 100%;
-  margin-top: 40px;
   padding: 4em 0;
   text-align: center;
 }
+
 #contact figure {
   margin: 3em 0 0;
 }
@@ -182,10 +185,11 @@ nav a.active {
 }
 
 #contact img {
+  margin-top: 3em;
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  border: var(--light-green) 4px solid;
+  border: var(--grey) 4px solid;
   object-fit: cover;
 }
 
@@ -237,6 +241,8 @@ nav a.active {
     order: 2;
   }
 }
+
+/* project */
 
 .project-links {
   color: var(--green);

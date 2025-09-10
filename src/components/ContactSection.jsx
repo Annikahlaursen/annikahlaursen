@@ -1,4 +1,5 @@
 import SocialIcons from "./SocialIcons";
+import sejtest from "../assets/sejtest.png";
 export default function ContactSection() {
   return (
     <section id="contact">
@@ -16,29 +17,25 @@ export default function ContactSection() {
 
         <address>
           <p>
-            <strong>Rasmus Cederdorff</strong>
+            <strong>Annika Hecto Laursen</strong>
             <br />
-            Web App developer
+            Frontend developer
             <br />
           </p>
           <p>
-            Senior Lecturer at <br />
-            <a href="https://eaaa.dk/" rel="noreferrer" target="_blank">
-              EAAA - Business Academy Aarhus
+            <a href="mailto:annikahlaursen@gmail.com">
+              annikahlaursen@gmail.com
             </a>
-          </p>
-          <p>
-            <a href="mailto:rasmus@cederdorff.com">rasmus@cederdorff.com</a>
             <br />
           </p>
           <p>
-            <a href="http://cederdorff.com">cederdorff.com</a>
+            <a href="http://annikahlaursen.dk">annikahlaursen.dk</a>
           </p>
           <SocialIcons />
         </address>
       </article>
       <figure>
-        <img src="/assets/fb.webp" alt="Rasmus Cederdorff" />
+        <img src={sejtest} alt="Annika Laursen" />
       </figure>
     </section>
   );
