@@ -1,30 +1,20 @@
+import React from "react";
+import SkillGrid from "./SkillGrid";
+
 export default function SkillSection() {
+  const skills = [
+    "React.js",
+    "Next.js",
+    "Tailwind CSS",
+    "Java",
+    "Spring Boot",
+    "PostgreSQL",
+  ];
+
   return (
-    <section className="skillsection">
-      <div className="skill">
-        <code>HTML</code>
-      </div>
-      <div className="skill">
-        <code>CSS</code>
-      </div>
-      <div className="skill">
-        <code>Javascript</code>
-      </div>
-      <div className="skill">
-        <code>React</code>
-      </div>
-      <div className="skill">
-        <p>Adobe Photoshop</p>
-      </div>
-      <div className="skill">
-        <p>Adobe Illustrator</p>
-      </div>
-      <div className="skill">
-        <p>Adobe Indesign</p>
-      </div>
-      <div className="skill">
-        <p>Figma</p>
-      </div>
-    </section>
+    <div>
+      <h2>Skills</h2>
+      <SkillGrid skills={skills} />
+    </div>
   );
 }
