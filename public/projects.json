@@ -1,5 +1,19 @@
 [
   {
+    "id": 1,
+    "title": "Skateducate Website",
+    "year": 2025,
+    "description": "Website for Skateducate. Skateducate er en frivillig-orgination der har fokus på at skabe et fællesskab for piger med skateboards. Hjemmesiden er udarbejdet i WordPress.",
+    "tags": ["HTML", "CSS"],
+    "image": "./src/assets/skateducate.png",
+    "links": [
+      {
+        "url": "https://skateducate.com/",
+        "text": "Skateducate Website >>"
+      }
+    ]
+  },
+  {
     "id": 0,
     "title": "Gravel Website",
     "year": 2024,
@@ -28,7 +42,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 5,
     "title": "Radar - Responsiv website",
     "year": 2024,
     "description": "Dette projekt er et individuelt projekt, hvor jeg har lavet en responsiv hjemmeside for Radar Fælleskab, som er en organisation der arbejder for at skabe fællesskab og netværk for unge i alderen 15-25 år. Hjemmesiden er lavet med fokus på brugervenlighed og tilgængelighed.",

@@ -4,11 +4,11 @@ import SkillGrid from "./SkillGrid";
 export default function SkillSection() {
   const skills = [
     "React.js",
-    "Next.js",
-    "Tailwind CSS",
-    "Java",
-    "Spring Boot",
-    "PostgreSQL",
+    "JavaScript",
+    "CSS",
+    "Illustrator",
+    "Indesign",
+    "Photoshop",
   ];
 
   return (

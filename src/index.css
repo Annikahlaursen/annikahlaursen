@@ -223,10 +223,6 @@ nav a.active {
   padding: 0;
 }
 
-i :hover {
-  color: var(--brown);
-}
-
 @media (min-width: 768px) {
   #contact h2 {
     font-size: 5em;
@@ -246,6 +242,7 @@ i :hover {
 .list-social i {
   color: var(--grey);
   font-size: 30px;
+  transition: transform 0.2s; /* Animation */
 }
 
 p:last-child {
@@ -254,12 +251,12 @@ p:last-child {
 
 i:hover {
   color: var(--white);
+  transform: scale(1.5);
 }
 
 /* -----SKill Section----- */
 .skillsection {
   justify-self: center;
-  max-width: 46%;
 }
 
 .skill-words {
@@ -275,11 +272,13 @@ i:hover {
 
 /* ----- Skills grid ----- */
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  max-width: fit-content;
+  justify-self: center;
 }
 
 @media (min-width: 768px) {
@@ -299,8 +298,13 @@ i:hover {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
+  transition: box-shadow 0.3s, border-radius 0.3s;
 }
 
+.skill-item:hover {
+  box-shadow: 0 4px 10px rgba(145, 145, 145, 0.587);
+  border-radius: 33px;
+}
 /* --- */
 
 @media (min-width: 768px) {
