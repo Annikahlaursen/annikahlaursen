@@ -9,7 +9,6 @@ export default function Home() {
     <div>
       <Header />
       <SkillSection />
-      <Mockup />
       <ContactSection />
     </div>
   );
