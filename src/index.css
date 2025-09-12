@@ -104,7 +104,7 @@ button:focus-visible {
 }
 
 .header img {
-  width: 40%;
+  width: 55%;
 }
 
 .vertical-head {
@@ -116,6 +116,8 @@ button:focus-visible {
   justify-self: center;
   text-align: left;
   align-content: center;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 .header .list-social i {
@@ -256,18 +258,17 @@ i:hover {
 
 /* -----SKill Section----- */
 .skillsection {
+  margin-top: 2.5em;
+  padding: 3em;
   justify-self: center;
+  background-color: var(--background);
+  width: 100%;
 }
 
 .skill-words {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.skill {
-  padding: 1em;
-  margin: 1rem;
 }
 
 /* ----- Skills grid ----- */
@@ -302,7 +303,7 @@ i:hover {
 }
 
 .skill-item:hover {
-  box-shadow: 0 4px 10px rgba(145, 145, 145, 0.587);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.587);
   border-radius: 33px;
 }
 /* --- */

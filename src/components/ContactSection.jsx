@@ -1,5 +1,5 @@
 import SocialIcons from "./SocialIcons";
-import sejtest from "../assets/sejtest.png";
+import image from "../assets/contactimg.jpg";
 export default function ContactSection() {
   return (
     <section id="contact">
@@ -35,7 +35,7 @@ export default function ContactSection() {
         </address>
       </article>
       <figure>
-        <img src={sejtest} alt="Annika Laursen" />
+        <img src={image} alt="Annika Laursen" />
       </figure>
     </section>
   );

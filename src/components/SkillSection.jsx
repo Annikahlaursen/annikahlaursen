@@ -5,14 +5,17 @@ export default function SkillSection() {
   const skills = [
     "React.js",
     "JavaScript",
+    "HTML",
     "CSS",
-    "Illustrator",
-    "Indesign",
-    "Photoshop",
+    "Adobe",
+    "Canva",
+    "Figma",
+    "Github",
+    "VS Code",
   ];
 
   return (
-    <div>
+    <div className="skillsection">
       <h2>Skills</h2>
       <SkillGrid skills={skills} />
     </div>
