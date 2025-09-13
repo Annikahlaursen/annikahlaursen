@@ -9,7 +9,7 @@
     "links": [
       {
         "url": "https://skateducate.com/",
-        "text": "Skateducate Website >>"
+        "text": "Skateducate Website"
       }
     ]
   },
@@ -23,7 +23,7 @@
     "links": [
       {
         "url": "https://gravel.annikahlaur.dk/",
-        "text": "Gravel website >>"
+        "text": "Gravel website"
       }
     ]
   },
@@ -37,7 +37,7 @@
     "links": [
       {
         "url": "https://menstruation.astrupdesigns.dk/",
-        "text": "Period Website >>"
+        "text": "Period Website"
       }
     ]
   },
@@ -49,7 +49,7 @@
     "tags": ["HTML", "CSS"],
     "image": "./src/assets/radar.png",
     "links": [
-      { "url": "https://radar.annikahlaur.dk/", "text": "Radar Website >>" }
+      { "url": "https://radar.annikahlaur.dk/", "text": "Radar Website" }
     ]
   },
   {
@@ -62,7 +62,7 @@
     "links": [
       {
         "url": "https://zerobuzzbrew.astrupdesigns.dk/",
-        "text": "ZeroBuzzBrew Website >>"
+        "text": "ZeroBuzzBrew Website"
       }
     ]
   },

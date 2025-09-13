@@ -32,7 +32,11 @@ export default function Mockup() {
           <img src={gravel} alt="" />
         </div>
       </div>
-      <NavLink to={`/projects${project}`}>Læs mere</NavLink>
+      <NavLink to={`/projects${project}`}>
+        <button className="button-grow" role="button">
+          <h2>Explore more projects</h2>
+        </button>
+      </NavLink>
     </section>
   );
 }
