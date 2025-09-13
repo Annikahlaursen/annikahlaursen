@@ -18,17 +18,19 @@ export default function Mockup() {
   }, []);
   return (
     <section id="mockup">
-      <div>
-        Skateducate
-        <img src={skateducate} alt="" />
-      </div>
-      <div>
-        Radar
-        <img src={radar} alt="" />
-      </div>
-      <div>
-        Gravel
-        <img src={gravel} alt="" />
+      <div className="mockupgrid">
+        <div>
+          <h2>Skateducate</h2>
+          <img src={skateducate} alt="" />
+        </div>
+        <div>
+          <h2>Radar</h2>
+          <img src={radar} alt="" />
+        </div>
+        <div>
+          <h2>Gravel</h2>
+          <img src={gravel} alt="" />
+        </div>
       </div>
       <NavLink to={`/projects${project}`}>Læs mere</NavLink>
     </section>

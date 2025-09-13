@@ -308,6 +308,20 @@ i:hover {
 }
 /* --- */
 
+.mockupgrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 3em;
+}
+
+.mockupgrid img {
+  height: 70%;
+}
+
+.mockupgrid img:hover {
+  transform: scale(1.07);
+}
+
 @media (min-width: 768px) {
   .project-row {
     display: grid;
