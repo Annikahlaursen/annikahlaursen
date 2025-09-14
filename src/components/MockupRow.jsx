@@ -3,10 +3,9 @@ export default function MockupRow({ mockup }) {
     <section className="project-row mockup-row">
       <article>
         <h3>{mockup.title}</h3>
-        {mockup.year && <h4>{mockup.year}</h4>}
         <p>{mockup.description}</p>
         {mockup.links && mockup.links.length > 0 && (
-          <section className="project-links mockup-row">
+          <section className="project-links mockup-links">
             {mockup.links.map((link, index) => (
               <a
                 key={`${mockup.id}-${index}`}

@@ -4,27 +4,27 @@
     "title": "instagram",
     "description": "Social icon",
     "image": "./src/assets/ig.webp",
-    "url": "https://gravel.annikahlaur.dk/"
+    "url": "https://www.instagram.com/annikahlaursen/"
   },
   {
     "id": "sc2",
     "title": "facebook",
     "description": "Social icon",
     "image": "./src/assets/gravel.png",
-    "url": "https://gravel.annikahlaur.dk/"
+    "url": "https://www.facebook.com/annikahlaursen/"
   },
   {
     "id": "sc3",
     "title": "linkedin",
     "description": "Social icon",
     "image": "./src/assets/gravel.png",
-    "url": "https://gravel.annikahlaur.dk/"
+    "url": "https://www.linkedin.com/in/annikahlaursen/"
   },
   {
     "id": "sc4",
     "title": "github",
     "description": "Social icon",
     "image": "./src/assets/gravel.png",
-    "url": "https://gravel.annikahlaur.dk/"
+    "url": "https://github.com/Annikahlaursen"
   }
 ]
