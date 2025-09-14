@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import radar from "../assets/radar-mockup.png";
 import skateducate from "../assets/skateducate-mockup.png";
 import gravel from "../assets/gravel-mockup.png";
+import { Link } from "react-router-dom";
 
 export default function Mockup() {
   const [project, setProjects] = useState([]);
@@ -16,21 +17,40 @@ export default function Mockup() {
     }
     getData();
   }, []);
+
   return (
-    <section id="mockup">
-      <div className="mockupgrid">
-        <div>
-          <h2>Skateducate</h2>
-          <img src={skateducate} alt="" />
-        </div>
-        <div>
-          <h2>Radar</h2>
-          <img src={radar} alt="" />
-        </div>
-        <div>
-          <h2>Gravel</h2>
-          <img src={gravel} alt="" />
-        </div>
+    <section id="project-row">
+      <div className="project-links">
+        <a
+          href="https://skateducate.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Skateducate</h3>
+          <figure>
+            <img src={skateducate} alt="" />
+          </figure>
+        </a>
+        <a
+          href="https://https://skateducate.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Radar</h3>
+          <figure>
+            <img src={radar} alt="" />
+          </figure>
+        </a>
+        <a
+          href="https://https://skateducate.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3>Gravel</h3>
+          <figure>
+            <img src={gravel} alt="" />
+          </figure>
+        </a>
       </div>
       <NavLink to={`/projects${project}`}>
         <button className="button-grow" role="button">

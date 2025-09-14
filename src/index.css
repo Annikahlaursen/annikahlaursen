@@ -299,12 +299,31 @@ i:hover {
 .mockupgrid {
   display: grid;
   grid-template-columns: auto auto auto;
+  gap: 2em;
 }
 
-.mockupgrid img {
-  height: 60%;
+.mockupbox {
+  background-color: var(--grey);
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.587);
+}
+
+.mockupbox h2 {
   margin-top: 1rem;
-  border-radius: 1;
+}
+
+.mockupbox img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.mockupbox:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Button style */
