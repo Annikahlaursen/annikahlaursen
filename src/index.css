@@ -347,6 +347,10 @@ i:hover {
     grid-template-columns: 2fr 1fr;
   }
 
+  .mockup-row:nth-child(2n) {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .project-row:nth-child(2n) > figure {
     order: 1;
   }
