@@ -310,10 +310,6 @@ i:hover {
     grid-template-columns: 2fr 1fr;
   }
 
-  .mockup-row:nth-child(2n) {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .project-row:nth-child(2n) > figure {
     order: 1;
   }
@@ -341,7 +337,8 @@ i:hover {
   }
 }
 
-.project-row img {
+.project-row img,
+.mockup-row img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -352,19 +349,22 @@ i:hover {
   overflow: hidden;
 }
 
-.project-row:hover img {
+.project-row:hover img,
+.mockup-row:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
 @media (min-width: 990px) {
-  .project-row figure {
+  .project-row figure,
+  .mockup-row figure {
     height: 450px;
   }
 }
 
-.project-row figure {
+.project-row figure,
+.mockup-row figure {
   padding: 0;
   margin: 0;
   overflow: hidden;

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import radar from "../assets/radar-mockup.png";
-import skateducate from "../assets/skateducate-mockup.png";
-import gravel from "../assets/gravel-mockup.png";
+import radar from "../assets/radar-screen.png";
+import skateducate from "../assets/skateducate-screen.png";
+import gravel from "../assets/gravel-screen.png";
 
 export default function Mockup() {
   const [project, setProjects] = useState([]);

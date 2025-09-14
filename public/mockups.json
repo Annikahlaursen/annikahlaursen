@@ -5,7 +5,7 @@
     "year": 2025,
     "description": "Website for Skateducate. Skateducate er en frivillig-orgination der har fokus på at skabe et fællesskab for piger med skateboards. Hjemmesiden er udarbejdet i WordPress.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/skateducate-mockup.png",
+    "image": "./src/assets/skateducate-screen.png",
     "links": [
       {
         "url": "https://skateducate.com/",
@@ -19,7 +19,7 @@
     "year": 2024,
     "description": "Dette projekt er et individuelt projekt, hvor jeg har lavet en responsiv hjemmeside for Radar Fælleskab, som er en organisation der arbejder for at skabe fællesskab og netværk for unge i alderen 15-25 år. Hjemmesiden er lavet med fokus på brugervenlighed og tilgængelighed.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/radar-mockup.png",
+    "image": "./src/assets/radar-screen.png",
     "links": [
       { "url": "https://radar.annikahlaur.dk/", "text": "Radar Website" }
     ]
@@ -30,7 +30,7 @@
     "year": 2024,
     "description": "Gravel cykel website, lavet individuelt. Hjemmesiden er lavet for at promovere gravel cykling og inspirere folk til at prøve gravel cykling.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/gravel-mockup.png",
+    "image": "./src/assets/gravel-screen.png",
     "links": [
       {
         "url": "https://gravel.annikahlaur.dk/",
