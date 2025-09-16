@@ -1,6 +1,5 @@
 import "./App.css";
 import { Routes, Route } from "react-router";
-import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
@@ -11,7 +10,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 function App() {
   return (
     <>
-      <Nav />
+      <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

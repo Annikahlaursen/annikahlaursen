@@ -1,13 +1,12 @@
-import Header from "../components/Header";
 import SkillSection from "../components/SkillSection";
-import SkillGrid from "../components/SkillGrid";
 import ContactSection from "../components/ContactSection";
 import MockupSection from "../components/MockupSection";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Hero />
       <SkillSection />
       <MockupSection />
       <ContactSection />

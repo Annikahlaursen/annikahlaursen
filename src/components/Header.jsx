@@ -1,19 +1,23 @@
-import SocialIcons from "./SocialIcons";
-import hero from "../assets/hero.png";
+import Nav from "./Nav";
+import Menu from "./Menu";
+import React from "react";
+
+function useIsMobile() {
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);
+  React.useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  return isMobile;
+}
 
 export default function Header() {
+  const isMobile = useIsMobile();
   return (
-    <header className="header">
-      <article className="vertical-head">
-        <div className="header-img">
-          <img src={hero} alt="outfit billede" />
-        </div>
-        <div className="header-text">
-          <h1>Jeg er Annika</h1>
-          <p>Frontend Developer | Student</p>
-          <SocialIcons />
-        </div>
-      </article>
+    <header className="headernav">
+      <h1>Annikahlaursen</h1>
+      {isMobile ? <Menu /> : <Nav />}
     </header>
   );
 }

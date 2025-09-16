@@ -81,13 +81,5 @@
     "description": "Forfatteraften for Else Lerche Olsen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
     "image": "./src/assets/elsebeth.png"
-  },
-  {
-    "id": "forfatteraften3",
-    "title": "Sidse Laugesen - Plakat",
-    "year": 2025,
-    "description": "Forfatteraften for Sidse Laugesen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
-    "tags": ["CANVA"],
-    "image": "./src/assets/sidse.png"
   }
 ]

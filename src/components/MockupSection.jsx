@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import MockupRow from "../components/MockupRow";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 export default function Projects() {
   const [mockups, setMockups] = useState([]);

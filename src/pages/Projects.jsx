@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectRow from "../components/ProjectRow";
+import ContactSection from "../components/ContactSection";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -19,6 +20,7 @@ export default function Projects() {
       {projects.map((project) => (
         <ProjectRow project={project} key={project.id} />
       ))}
+      <ContactSection />
     </section>
   );
 }
