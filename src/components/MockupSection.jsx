@@ -30,7 +30,7 @@ export default function Projects() {
 
   return (
     <section>
-      <article>
+      <article className="row">
         <h2>Projects</h2>
         {mockups.map((mockup) => (
           <MockupRow mockup={mockup} key={mockup.id} />
@@ -38,7 +38,7 @@ export default function Projects() {
       </article>
       <NavLink to={`/projects${project}`}>
         <button className="button-grow" role="button">
-          <h2>Explore more projects</h2>
+          <h1>Explore more projects</h1>
         </button>
       </NavLink>
     </section>

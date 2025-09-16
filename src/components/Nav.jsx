@@ -1,5 +1,4 @@
 import { NavLink } from "react-router";
-import Menu from "../components/Menu";
 
 export default function Nav() {
   return (
