@@ -1,21 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 // OmMig - Nyhedstrekanten (React-komponent)
 // Brug: kopier filen direkte ind i dit projekt. Komponentens styling bruger Tailwind-klasser.
 
-export default function About({ projects = "#projects" }) {
-  const [project, setProjects] = useState([]);
-
-  useEffect(() => {
-    async function getData() {
-      const response = await fetch("/data/projects.json");
-      const data = await response.json();
-      setProjects(data);
-    }
-    getData();
-  }, []);
+export default function About() {
+  // const [project, setProjects] = useState([]); // Not needed for just linking
 
   return (
     <section
@@ -39,7 +29,7 @@ export default function About({ projects = "#projects" }) {
           contribute to developing user-friendly digital solutions.
         </p>
 
-        <NavLink to={`/projects${project}`}>
+        <NavLink to="/projects">
           <button className="button-grow" role="button">
             <h1>Explore more projects</h1>
           </button>
