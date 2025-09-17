@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Contact from "../components/ContactSection";
 
 // OmMig - Nyhedstrekanten (React-komponent)
 // Brug: kopier filen direkte ind i dit projekt. Komponentens styling bruger Tailwind-klasser.
@@ -35,6 +36,8 @@ export default function About() {
           </button>
         </NavLink>
       </div>
+
+      <Contact />
     </section>
   );
 }

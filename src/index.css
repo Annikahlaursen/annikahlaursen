@@ -1,10 +1,12 @@
+.overlay.open {
+  width: 100%;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--white);
   background-color: var(--brown);
 
   --black: #242424;
@@ -62,6 +64,8 @@ h2 {
   padding: 0;
 }
 
+/* ---------- Navigation Styling ---------- */
+
 .headernav {
   position: sticky;
   display: flex;
@@ -74,8 +78,6 @@ h2 {
   justify-content: space-between;
   justify-self: center;
   border-radius: 37px;
-  width: 90%;
-  top: 0;
   margin-top: 2rem;
   z-index: 2000;
 }
@@ -87,32 +89,7 @@ h2 {
 
 .nav {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
-
-/* ------ Header Styling ------- */
-
-.hero img {
-  width: 55%;
-}
-
-.vertical-head {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-}
-
-.hero-text {
-  justify-self: center;
-  text-align: left;
-  align-content: center;
-}
-
-.hero .list-social i {
-  margin-right: 1rem;
-}
-
-/* ---------- Navigation Styling ---------- */
 
 /* Style the links inside the navigation bar */
 nav a {
@@ -134,6 +111,27 @@ nav a:hover {
 /* Add a color to the active/current link */
 nav a.active {
   background-color: var(--brown);
+}
+
+/* ------ Header Styling ------- */
+
+.hero img {
+  width: 55%;
+}
+
+.vertical-head {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.hero-text {
+  justify-self: center;
+  text-align: left;
+  align-content: center;
+}
+
+.hero .list-social i {
+  margin-right: 1rem;
 }
 
 /* client row */
@@ -184,24 +182,6 @@ nav a.active {
   margin: 3em 0 0;
 }
 
-@media (min-width: 768px) {
-  #contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3em;
-    padding: 7em 0;
-    text-align: left;
-  }
-
-  #contact article {
-    text-align: right;
-  }
-
-  #contact figure {
-    margin: 0;
-  }
-}
-
 #contact img {
   margin-top: 3em;
   width: 260px;
@@ -209,13 +189,6 @@ nav a.active {
   border-radius: 50%;
   border: var(--grey) 4px solid;
   object-fit: cover;
-}
-
-@media (min-width: 768px) {
-  #contact h2 {
-    font-size: 5em;
-    margin-right: -8px;
-  }
 }
 
 #contact address {
@@ -267,18 +240,6 @@ i:hover {
   justify-self: center;
 }
 
-@media (min-width: 768px) {
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .skills-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 .skill-item {
   text-align: center;
   padding: 1rem;
@@ -305,24 +266,6 @@ i:hover {
   background-color: var(--lightgrey);
 }
 
-@media (min-width: 768px) {
-  .project-row {
-    display: grid;
-    grid-template-columns: 3fr 4fr;
-  }
-  .project-row:nth-child(2n) {
-    grid-template-columns: 2fr 1fr;
-  }
-
-  .project-row:nth-child(2n) > figure {
-    order: 1;
-  }
-
-  .project-row:nth-child(2n) > article {
-    order: 2;
-  }
-}
-
 /* project */
 
 .project-links {
@@ -333,12 +276,6 @@ i:hover {
   line-height: 1.8;
   margin-top: 0.3em;
   text-transform: uppercase;
-}
-
-@media (min-width: 768px) {
-  .project-links {
-    font-size: 0.9em;
-  }
 }
 
 .project-row img,
@@ -360,13 +297,6 @@ i:hover {
   transform: scale(1.1);
 }
 
-@media (min-width: 990px) {
-  .project-row figure,
-  .mockup-row figure {
-    height: 450px;
-  }
-}
-
 .project-row figure,
 .mockup-row figure {
   padding: 0;
@@ -374,16 +304,12 @@ i:hover {
   overflow: hidden;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    background-color: var(--brown);
-  }
-  a:hover {
-    color: var(--white);
-  }
-  button {
-    background-color: var(--brown);
-  }
+.row h2 {
+  background-color: var(--black);
+}
+
+.headlinerow {
+  background-color: var(--black);
 }
 
 /* The Overlay (background) */
@@ -415,33 +341,123 @@ i:hover {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
+  color: var(--lightgrey);
 }
 
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: var(--grey);
 }
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  top: 10%;
+  right: 10%;
   font-size: 60px;
+  color: var(--lightgrey);
+  background-color: none;
+}
+
+.openbtn {
+  display: flex;
+  font-size: 1.7rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 990px) {
+  .project-row figure,
+  .mockup-row figure {
+    height: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+    padding: 7em 0;
+    text-align: left;
+  }
+
+  #contact article {
+    text-align: right;
+  }
+
+  #contact figure {
+    margin: 0;
+  }
+
+  #contact h2 {
+    font-size: 5em;
+    margin-right: -8px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-links {
+    font-size: 0.9em;
+  }
+
+  .project-row {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+  }
+  .project-row:nth-child(2n) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .project-row:nth-child(2n) > figure {
+    order: 1;
+  }
+
+  .project-row:nth-child(2n) > article {
+    order: 2;
+  }
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 589px) {
+  h1,
+  h2,
+  h3,
+  p,
+  a {
+    text-align: center;
+  }
+
+  :root {
+    justify-items: center;
+  }
+
+  .headernav {
+    height: 2rem;
+  }
   .overlay a {
     font-size: 20px;
+    text-transform: uppercase;
   }
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+
+  .overlay .openbtn {
+    font-size: 40px;
+    top: 15px;
+    left: 35px;
   }
 }

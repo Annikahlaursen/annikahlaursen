@@ -16,7 +16,7 @@ export default function Projects() {
 
   return (
     <section>
-      <h2>Projects</h2>
+      <h2 className="headlinerow">Projects</h2>
       {projects.map((project) => (
         <ProjectRow project={project} key={project.id} />
       ))}

@@ -1,26 +1,44 @@
 import React, { useState } from "react";
-import Nav from "./Nav";
 import { CiMenuBurger } from "react-icons/ci";
+import { NavLink } from "react-router-dom";
 
 export default function OverlayMenu() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div>
-      {/* The overlay, always rendered, but width toggled by class */}
-      <div id="myNav" className={`overlay${open ? " open" : ""}`}>
+    <section>
+      <div className={`overlay${open ? " open" : ""}`}>
         <button className="closebtn" onClick={() => setOpen(false)}>
           &times;
         </button>
         <div className="overlay-content">
-          <Nav />
+          <NavLink to="/" onClick={() => setOpen(false)}>
+            Home
+          </NavLink>
+          <NavLink to="/projects" onClick={() => setOpen(false)}>
+            Projects
+          </NavLink>
+          <NavLink to="/about" onClick={() => setOpen(false)}>
+            About
+          </NavLink>
+          <NavLink to="/contact" onClick={() => setOpen(false)}>
+            Contact
+          </NavLink>
         </div>
       </div>
-
-      {/* Element to open/show the overlay navigation menu */}
-      <span onClick={() => setOpen(true)} style={{ cursor: "pointer" }}>
-        <CiMenuBurger />
-      </span>
-    </div>
+      <div>
+        {/* Element to open/show the overlay navigation menu */}
+        <span
+          className="openbtn"
+          onClick={() => setOpen(true)}
+          style={{
+            cursor: "pointer",
+            marginRight: "1em",
+          }}
+        >
+          <CiMenuBurger />
+        </span>
+      </div>
+    </section>
   );
 }

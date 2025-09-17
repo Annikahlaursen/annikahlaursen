@@ -9,7 +9,7 @@ export default function Header() {
           <img src={hero} alt="outfit billede" />
         </div>
         <div className="hero-text">
-          <h1>Jeg er Annika</h1>
+          <h2>I'm Annika</h2>
           <p>Frontend Developer | Student</p>
           <SocialIcons />
         </div>
