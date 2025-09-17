@@ -21,7 +21,7 @@ export default function MockupRow({ mockup }) {
         )}
       </article>
       <figure>
-        <img src={mockup.image} alt={mockup.title} />
+        <img src={mockup.mockup} alt={mockup.title} />
       </figure>
     </section>
   );

@@ -5,13 +5,12 @@ export default function ContactSection() {
     <section id="contact">
       <article>
         <h2>
-          Get in
-          <br />
-          touch
+          Let's grab
+          <br />a Coffee
         </h2>
         <article className="tagline">
           <p>
-            And let us talk about how I<br /> can help you look your best online
+            And chat about how I can bring <br /> your ideas to life online.
           </p>
         </article>
 

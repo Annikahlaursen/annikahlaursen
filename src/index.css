@@ -1,12 +1,8 @@
-.overlay.open {
-  width: 100%;
-}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color: var(--white);
   background-color: var(--brown);
 
   --black: #242424;
@@ -27,15 +23,15 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
+  color: var(--white);
 }
 
 a {
   font-weight: 500;
-  color: var(--white);
   text-decoration: inherit;
 }
 a:hover {
-  color: var(--white);
+  color: var(--lightgrey);
 }
 
 /* src/main.css */
@@ -82,9 +78,13 @@ h2 {
   z-index: 2000;
 }
 
-.headernav h1 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.headernav a {
+  text-transform: uppercase;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 1rem 2rem;
+  font-size: 20px;
 }
 
 .nav {
@@ -113,8 +113,7 @@ nav a.active {
   background-color: var(--brown);
 }
 
-/* ------ Header Styling ------- */
-
+/* ---- Forside hero section  ---- */
 .hero img {
   width: 55%;
 }
@@ -172,10 +171,13 @@ nav a.active {
   margin-left: 1rem;
 }
 
+/* Ensure contact section never covers overlay menu */
 #contact {
   width: 100%;
   padding: 4em 0;
   text-align: center;
+  position: relative;
+  z-index: 0;
 }
 
 #contact figure {
@@ -216,8 +218,7 @@ i:hover {
 
 /* -----SKill Section----- */
 .skillsection {
-  margin-top: 2.5em;
-  padding: 3em;
+  padding-bottom: 1em;
   justify-self: center;
   background-color: var(--black);
   width: 100%;
@@ -227,6 +228,12 @@ i:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.headlineskill {
+  margin-top: 1em;
+  padding-top: 0.7rem;
+  background: var(--black);
 }
 
 /* ----- Skills grid ----- */
@@ -312,13 +319,20 @@ i:hover {
   background-color: var(--black);
 }
 
+.about {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  color: var(--lightgrey);
+}
+
 /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */
   height: 100%;
   width: 0;
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 3000; /* Sit on top, above headernav */
   left: 0;
   top: 0;
   background-color: rgb(0, 0, 0); /* Black fallback color */
@@ -355,9 +369,8 @@ i:hover {
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: 10%;
-  right: 10%;
-  font-size: 60px;
+  margin-top: 1.2rem;
+  margin-right: 1rem;
   color: var(--lightgrey);
   background-color: none;
 }
@@ -366,6 +379,79 @@ i:hover {
   display: flex;
   font-size: 1.7rem;
   align-items: center;
+}
+
+.overlay.open {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .skillsection {
+    display: grid !important;
+    align-items: center;
+    justify-items: center;
+    text-align: left;
+  }
+
+  .skillsection .skills-grid {
+    grid-column: 2 / 3;
+    justify-self: start;
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  .overlay {
+    display: block !important;
+    flex-direction: unset !important;
+    align-items: unset !important;
+    justify-content: unset !important;
+    text-align: center !important;
+    position: fixed !important;
+    z-index: 9999 !important;
+    inset: 0 !important;
+  }
+  body,
+  main,
+  .project-row,
+  .mockup-row,
+  .about,
+  .skillsection,
+  .hero,
+  .row,
+  #contact {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .skills-grid {
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+  }
+  .project-row > article,
+  .mockup-row > article {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  .vertical-head {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .hero-text {
+    order: 1;
+    text-align: center !important;
+    margin-bottom: 1.5em;
+  }
+  .hero-img {
+    order: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -399,12 +485,12 @@ i:hover {
   }
 
   #contact h2 {
-    font-size: 5em;
+    font-size: 4.3em;
     margin-right: -8px;
   }
 
   .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1fr);
   }
 
   .project-links {
@@ -442,9 +528,6 @@ i:hover {
     justify-items: center;
   }
 
-  .headernav {
-    height: 2rem;
-  }
   .overlay a {
     font-size: 20px;
     text-transform: uppercase;

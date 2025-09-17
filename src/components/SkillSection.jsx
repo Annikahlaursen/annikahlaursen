@@ -15,9 +15,11 @@ export default function SkillSection() {
   ];
 
   return (
-    <div className="skillsection">
-      <h2>Skills</h2>
-      <SkillGrid skills={skills} />
+    <div>
+      <h2 className="headlineskill">Skills</h2>
+      <div className="skillsection">
+        <SkillGrid skills={skills} />
+      </div>
     </div>
   );
 }

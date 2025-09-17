@@ -1,6 +1,7 @@
 import Nav from "./Nav";
 import Menu from "./Menu";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);
@@ -16,7 +17,7 @@ export default function Header() {
   const isMobile = useIsMobile();
   return (
     <header className="headernav">
-      <h1>Annikahlaursen</h1>
+      <Link to="/">Annikahlaursen</Link>
       {isMobile ? <Menu /> : <Nav />}
     </header>
   );

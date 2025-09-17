@@ -5,7 +5,8 @@
     "year": 2025,
     "description": "Website for Skateducate. Skateducate er en frivillig-orgination der har fokus på at skabe et fællesskab for piger med skateboards. Hjemmesiden er udarbejdet i WordPress.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/skateducate.png",
+    "image": "/assets/skateducate.png",
+    "mockup": "/assets/skateducate-screen.png",
     "links": [
       {
         "url": "https://skateducate.com/",
@@ -19,7 +20,8 @@
     "year": 2024,
     "description": "Gravel cykel website, lavet individuelt. Hjemmesiden er lavet for at promovere gravel cykling og inspirere folk til at prøve gravel cykling.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/gravel.png",
+    "image": "/assets/gravel.png",
+    "mockup": "/assets/gravel-screen.png",
     "links": [
       {
         "url": "https://gravel.annikahlaursen.dk/",
@@ -33,7 +35,7 @@
     "year": 2025,
     "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "./src/assets/underliv.png",
+    "image": "/assets/underliv.png",
     "links": [
       {
         "url": "https://menstruation.astrupdesigns.dk/",
@@ -42,12 +44,13 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Radar - Responsiv website",
     "year": 2024,
     "description": "Dette projekt er et individuelt projekt, hvor jeg har lavet en responsiv hjemmeside for Radar Fælleskab, som er en organisation der arbejder for at skabe fællesskab og netværk for unge i alderen 15-25 år. Hjemmesiden er lavet med fokus på brugervenlighed og tilgængelighed.",
     "tags": ["HTML", "CSS"],
-    "image": "./src/assets/radar.png",
+    "image": "/assets/radar.png",
+    "mockup": "/assets/radar-screen.png",
     "links": [
       { "url": "https://radar.annikahlaursen.dk/", "text": "Radar Website" }
     ]
@@ -58,7 +61,7 @@
     "year": 2025,
     "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "image": "./src/assets/zerobuzzbrew.png",
+    "image": "/assets/zerobuzzbrew.png",
     "links": [
       {
         "url": "https://zerobuzzbrew.astrupdesigns.dk/",
@@ -72,7 +75,7 @@
     "year": 2025,
     "description": "Forfatteraften for Poul Duedahl, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
-    "image": "./src/assets/poul.png"
+    "image": "/assets/poul.png"
   },
   {
     "id": "forfatteraften2",
@@ -80,6 +83,6 @@
     "year": 2025,
     "description": "Forfatteraften for Else Lerche Olsen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
     "tags": ["CANVA"],
-    "image": "./src/assets/elsebeth.png"
+    "image": "/assets/elsebeth.png"
   }
 ]
