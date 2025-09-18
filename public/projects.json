@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Skateducate Website",
     "year": 2025,
-    "description": "Website for Skateducate. Skateducate er en frivillig-orgination der har fokus på at skabe et fællesskab for piger med skateboards. Hjemmesiden er udarbejdet i WordPress.",
+    "description": "Website for Skateducate, a volunteer-driven organization dedicated to building a supportive community for girls interested in skateboarding. The site, developed in WordPress, provides resources, event information, and a platform to connect and empower young female skaters.",
     "tags": ["HTML", "CSS"],
     "image": "/assets/skateducate.png",
     "mockup": "/assets/skateducate-screen.png",
@@ -18,7 +18,7 @@
     "id": 0,
     "title": "Gravel Website",
     "year": 2024,
-    "description": "Gravel cykel website, lavet individuelt. Hjemmesiden er lavet for at promovere gravel cykling og inspirere folk til at prøve gravel cykling.",
+    "description": "A personal project: a website dedicated to gravel cycling. The site aims to promote the sport, share tips and routes, and inspire newcomers to experience the adventure and freedom of gravel biking.",
     "tags": ["HTML", "CSS"],
     "image": "/assets/gravel.png",
     "mockup": "/assets/gravel-screen.png",
@@ -33,7 +33,7 @@
     "id": 4,
     "title": "Period - informativ website",
     "year": 2025,
-    "description": "I samarbejde med STENO museet, har jeg med en anden studerende, lavet en informativ hjemmeside om menstruation, for at nedbryde tabuer og lære om menstruation til målgruppen; mellemtrinnet i folkeskolen. Websitet er lavet som en webapp og er derfor kun optimeret til Ipad pro skærmstørrelse.",
+    "description": "In collaboration with the STENO Museum and a fellow student, I developed an educational web app about menstruation. The project aims to break taboos and provide accessible, age-appropriate information for middle school students. Optimized for iPad Pro, the site features interactive content and resources for both students and teachers.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "/assets/underliv.png",
     "links": [
@@ -47,7 +47,7 @@
     "id": 6,
     "title": "Radar - Responsiv website",
     "year": 2024,
-    "description": "Dette projekt er et individuelt projekt, hvor jeg har lavet en responsiv hjemmeside for Radar Fælleskab, som er en organisation der arbejder for at skabe fællesskab og netværk for unge i alderen 15-25 år. Hjemmesiden er lavet med fokus på brugervenlighed og tilgængelighed.",
+    "description": "An individual project: a fully responsive website for Radar Fælleskab, an organization dedicated to fostering community and networking opportunities for young people aged 15-25. The site emphasizes user experience, accessibility, and modern design to ensure everyone can participate and connect.",
     "tags": ["HTML", "CSS"],
     "image": "/assets/radar.png",
     "mockup": "/assets/radar-screen.png",
@@ -59,7 +59,7 @@
     "id": 2,
     "title": "ZeroBuzzBrew - Responsiv website",
     "year": 2025,
-    "description": "Gruppeprojekt med at lave en hjemmeside for et fiktivt bryggeri, med fokus på at skabe fællesskab for unge.",
+    "description": "A group project to design and build a website for a fictional brewery, ZeroBuzzBrew. The site is tailored to engage young audiences, promote alcohol-free social events, and create a sense of belonging through creative branding and interactive features.",
     "tags": ["HTML", "CSS", "JavaScript"],
     "image": "/assets/zerobuzzbrew.png",
     "links": [
@@ -73,7 +73,7 @@
     "id": "forfatteraften1",
     "title": "Poul Duedahl - Plakat",
     "year": 2025,
-    "description": "Forfatteraften for Poul Duedahl, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
+    "description": "Poster design for an author evening featuring Poul Duedahl, created in collaboration with A3 Aktiv Alder. The poster aims to attract attendees, highlight the author’s achievements, and encourage community participation in cultural events.",
     "tags": ["CANVA"],
     "image": "/assets/poul.png"
   },
@@ -81,7 +81,7 @@
     "id": "forfatteraften2",
     "title": "Else Lerche Olsen - Plakat",
     "year": 2025,
-    "description": "Forfatteraften for Else Lerche Olsen, lavet i samarbejde med A3 Aktiv Alder. Plakaten er lavet for at promovere forfatteraftenen og inspirere folk til at deltage.",
+    "description": "Poster design for an author evening with Else Lerche Olsen, developed together with A3 Aktiv Alder. The design is intended to promote the event, celebrate the author’s work, and inspire people of all ages to join in literary and cultural activities.",
     "tags": ["CANVA"],
     "image": "/assets/elsebeth.png"
   }
