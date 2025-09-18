@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import MockupRow from "../components/MockupRow";
 import { NavLink } from "react-router-dom";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
 
 export default function Projects() {
   const [selectedItems, setSelectedItems] = useState([]);
@@ -20,10 +16,10 @@ export default function Projects() {
   }, []);
 
   return (
-    <section>
+    <section id="projects">
       <article className="row">
-        <div className="headline-container">
-          <h2>Projects</h2>
+        <div>
+          <h2 className="headlinerow">Projects</h2>
         </div>
         {selectedItems.map((mockup) => (
           <MockupRow mockup={mockup} key={mockup.id} />
