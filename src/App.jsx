@@ -9,7 +9,7 @@ import ProjectDetail from "./pages/ProjectDetail";
 
 function App() {
   return (
-    <>
+    <body>
       <Header />
       <main>
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/projects/:id" element={<ProjectDetail />} />
         </Routes>
       </main>
-    </>
+    </body>
   );
 }
 

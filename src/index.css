@@ -428,7 +428,7 @@ i:hover {
   .hero,
   .row,
   #contact {
-    display: flex !important;
+    /*display: flex !important;*/
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
