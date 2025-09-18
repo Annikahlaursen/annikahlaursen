@@ -7,7 +7,7 @@ export default function Projects() {
 
   useEffect(() => {
     async function getData() {
-  const response = await fetch(`${import.meta.env.BASE_URL}projects.json`);
+      const response = await fetch(`${import.meta.env.BASE_URL}projects.json`);
       const data = await response.json();
       const chosen = [data[0], data[3], data[1]];
       setSelectedItems(chosen);

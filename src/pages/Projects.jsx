@@ -7,7 +7,7 @@ export default function Projects() {
 
   useEffect(() => {
     async function getData() {
-  const response = await fetch(`${import.meta.env.BASE_URL}projects.json`);
+      const response = await fetch(`${import.meta.env.BASE_URL}projects.json`);
       const data = await response.json();
       setProjects(data);
     }
