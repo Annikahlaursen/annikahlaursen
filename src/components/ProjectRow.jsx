@@ -22,7 +22,10 @@ export default function ProjectRow({ project }) {
         )}
       </article>
       <figure>
-        <img src={project.image} alt={project.title} />
+        <img
+          src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
+          alt={project.title}
+        />
       </figure>
     </section>
   );

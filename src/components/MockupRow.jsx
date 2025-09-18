@@ -21,7 +21,10 @@ export default function MockupRow({ mockup }) {
         )}
       </article>
       <figure>
-        <img src={mockup.mockup} alt={mockup.title} />
+        <img
+          src={`${import.meta.env.BASE_URL}${mockup.mockup.replace(/^\//, "")}`}
+          alt={mockup.title}
+        />
       </figure>
     </section>
   );
