@@ -19,7 +19,7 @@ export default function About() {
         </h2>
 
         <p className="text-lg leading-relaxed mb-4">
-          I live in Aarhus and describe myself as a social, outgoing, and
+          I live in Aarhus and describe myself as a social, outgoing and
           positive person who values spending time with family and friends. In
           my free time, I enjoy staying active through skateboarding, cycling,
           and bouldering. I am ambitious and goal-oriented, which shows in the
